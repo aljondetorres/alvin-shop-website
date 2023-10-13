@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Palanquin Dark:700|Palanquin Dark:400');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --primary-color: #3026F2;
+    --secondary-color: #11021D;
+    --undefined-color: #0D6BDE;
+    --text-color: #ffffff;
+}
+body{
+    background-color: white;
+    color: white;
+    font-family: 'Palanquin Dark';
+    font-weight: 400;
+}
+.nav-bar{
+    display: flex;
+    width: 100%;
+    height: 83px;
+    background-color: var(--secondary-color);
+}
+.nav-logo{
+    margin: 0.7rem 2rem 0 5rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+.nav-logo2{
+    color: var(--undefined-color);
+    font-style: italic;
+    font-size: 1rem;
+    position: absolute;
+    margin-top: -0.6rem;
+}
+.nav-menu{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    list-style: none;
+    align-items: center;
+}
+.nav-list{
+    display: flex;
+    gap: 9rem;
+    list-style: none;
+}
+.nav-list li a{
+    text-decoration: none;
+    font-size:1.2rem;
+    color: white;
+}
+.nav-list-shop{
+    border-bottom: 4px solid var(--undefined-color);
+}
+.nav-list li a:hover{
+    border-bottom: 4px solid var(--undefined-color);
+}
+.nav-list i{
+    color: var(--undefined-color);
+    margin-right: 1rem;
+}
+.nav-search{
+    display: flex;
+    padding: 1.5rem 3rem;
+    border: none;
+}
+.nav-input{
+    font-size: 1.1rem;
+    position: relative;
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    border: none;
+    border-bottom: 2px solid white;
+    outline: none;
+}
+.nav-btn{
+    position: absolute;
+    margin: 0.2rem 0 0 11.8rem;
+    outline: none;
+    border: none;
+    font-size: 1.4rem;
+    cursor: pointer;
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    
+}
+.nav-btn:hover{
+    transform: translateY(-3px);
+}
+header{
+    justify-content: center;
+    text-align: center;
+    font-size: 4rem;
+    background-color: var(--secondary-color);
+    border-radius: 0 0 30px 30px;
+}
+.body-container{
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+    padding: 2rem 2rem;
+    color: black;
+}
+.body-content1{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8rem;
+    text-align: center;
+    font-size: 1.6rem;
+    transition: 3s;
+}
+.content-body:hover{
+   transform: translateY(-20px);
+}
+.content-body img{
+    cursor: pointer;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: inset 0 -3em 3em rgba(0,0,0,0.5),
+             0 0  0 2px rgb(190, 190, 190),
+             0.3em 0.3em 1em rgba(0,0,0,0.8);
+}
