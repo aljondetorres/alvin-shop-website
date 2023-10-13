@@ -46,12 +46,12 @@ body{
 }
 .nav-list{
     display: flex;
-    gap: 9rem;
-    list-style: none;
+    gap: 6rem;
+    list-style: none;   
 }
 .nav-list li a{
     text-decoration: none;
-    font-size:1.2rem;
+    font-size: 0.8rem;
     color: white;
 }
 .nav-list li a:hover{
@@ -62,11 +62,10 @@ body{
     margin-right: 1rem;
 }
 .nav-btn{
-    align-items: flex-end;
-    margin: 1.1rem 6rem;
+    margin: 1.4rem 6rem;
 }
 .btn-nav{
-    padding: 17px 22px;
+    padding: 12px 15px;
     border-radius: 10px;
     background-color: var(--primary-color);
     color: white;

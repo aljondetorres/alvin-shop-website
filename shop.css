@@ -45,12 +45,12 @@ body{
 }
 .nav-list{
     display: flex;
-    gap: 9rem;
-    list-style: none;
+    gap: 6rem;
+    list-style: none;   
 }
 .nav-list li a{
     text-decoration: none;
-    font-size:1.2rem;
+    font-size: 0.8rem;
     color: white;
 }
 .nav-list-shop{
@@ -65,11 +65,11 @@ body{
 }
 .nav-search{
     display: flex;
-    padding: 1.5rem 3rem;
+    padding: 1.5rem 6rem;
     border: none;
 }
 .nav-input{
-    font-size: 1.1rem;
+    font-size: 0.8rem;
     position: relative;
     background-color: var(--secondary-color);
     color: var(--text-color);
@@ -79,10 +79,10 @@ body{
 }
 .nav-btn{
     position: absolute;
-    margin: 0.2rem 0 0 11.8rem;
+    margin: 0.6rem 0 0 9rem;
     outline: none;
     border: none;
-    font-size: 1.4rem;
+    font-size: 1rem;
     cursor: pointer;
     background-color: var(--secondary-color);
     color: var(--text-color);
@@ -91,36 +91,43 @@ body{
 .nav-btn:hover{
     transform: translateY(-3px);
 }
+
+
 header{
     justify-content: center;
     text-align: center;
-    font-size: 4rem;
+    font-size: 3.1rem;
     background-color: var(--secondary-color);
     border-radius: 0 0 30px 30px;
 }
 .body-container{
     display: flex;
     justify-content: center;
-    margin: 2rem 0;
+    margin: 4rem;
     padding: 2rem 2rem;
     color: black;
 }
 .body-content1{
     position: relative;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 8rem;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows: 150px 150px 150px;
+    gap: 7rem;
     text-align: center;
-    font-size: 1.6rem;
+    font-size: 1rem;
     transition: 3s;
+    outline: none;
 }
 .content-body:hover{
    transform: translateY(-20px);
 }
+.content-body h3{
+    font-weight: lighter;
+}
 .content-body img{
     cursor: pointer;
-    width: 300px;
-    height: 300px;
+    width: 148px;
+    height: 148px;
     border-radius: 20px;
     box-shadow: inset 0 -3em 3em rgba(0,0,0,0.5),
              0 0  0 2px rgb(190, 190, 190),
