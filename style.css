@@ -93,20 +93,20 @@ body{
 
 .header-content-1{
     padding: 1rem;
-    margin: 3rem 3rem;
+    margin: 3rem;
 }
 .name-header{
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: 700;
     
 }
 .header-content-1 p{
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     text-align: justify;
     font-weight: 400;
 }
 .icon-header{
-    font-size: 3rem;
+    font-size: 2rem;
     margin: 2rem 0;
     color: var(--undefined-color);
     text-align: center;
@@ -123,22 +123,23 @@ body{
 }
 .header-content-2{
     display: grid;
-    grid-template-columns: 1fr 400px;
-    margin: 5rem 1rem;
+    grid-template-columns: 250px 250px;
+    grid-template-rows: 250px 250px;
+    margin: 5rem;
     cursor: pointer;
     gap: 1rem;
 }
 .image-header{
     border-radius: 20px;
-    width: 270px;
-    height: 270px;
+    /* width: 230px;
+    height: 230px; */
     border: 2px solid var(--undefined-color);
     background-color: var(--secondary-color);
     box-shadow: 0 0 20px #363636, inset 0 0 20px #363636;
 }
 .image-header img{
-    width: 270px;
-    height: 270px;
+    width: 248px;
+    height: 248px;
     border-radius: 20px;
     padding: 0.4rem;
 }
