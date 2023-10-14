@@ -136,10 +136,10 @@ header{
 .sub-container{
     margin: -11rem auto;
     display: grid;
-    grid-template-columns: 460px 460px;
+    grid-template-columns: 450px 450px;
     border-radius: 50px;
-    background-color: var(--secondary-color);
-    width: 70%;
+    background: linear-gradient(275deg, #3026f2 0%, #11021d 100%);
+    width: 83%;
     justify-content: center;
     align-items: center;
     gap: 3rem;
@@ -168,7 +168,6 @@ header{
              -6px -6px 12px var(--primary-color);
     cursor: pointer;
 }
-
 .btn-sub:hover{
     background-color: var(--undefined-color);
 }
